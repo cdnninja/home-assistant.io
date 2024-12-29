@@ -20,6 +20,7 @@ ha_platforms:
   - light
   - sensor
   - switch
+  - binary sensor
 ha_integration_type: integration
 ---
 
@@ -33,6 +34,7 @@ The following platforms are supported:
 - **switch**
 - **fan**
 - **sensor**
+- **binary sensor**
 
 ## Supported devices
 
@@ -66,6 +68,10 @@ This {% term integration %} supports devices controllable by the VeSync App.  Th
 - Vital 100S Smart True HEPA Air Purifier (LAP-V102S-WUS) 
 - Vital 200S Smart True HEPA Air Purifier (LAP-V201S-WUS)
 - LEVOIT Smart Wifi Air Purifier (LV-PUR131S)
+
+### Humdifiers
+
+- Limited support - water level only. 
 
 ## Prerequisite
 
@@ -117,6 +123,14 @@ VeSync air purifiers will expose the following details depending on the features
 | `screen_status`         | The current status of the screen. (LV-PUR131S)                                    | on              |
 | `night_light`           | The current status of the night light (Core200S/Core400s)                         | off             |
 | `child_lock`            | The current status of the child lock (Core200S/300s/400s)                         | off             |
+
+## Binary Sensors
+Additional binary sensors
+
+| Sensor                  | Description                                                                            | Example   |
+| ----------------------- | -------------------------------------------------------------------------------------- | --------- |
+| `online`                | If the device is connected to the cloud.                                               | Online    |
+| `water_lacks`           | Low water for humdifiers                                                               | ok        |
 
 ## Extracting attribute data
 

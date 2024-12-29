@@ -71,7 +71,7 @@ This {% term integration %} supports devices controllable by the VeSync App.  Th
 
 ### Humdifiers
 
-- Limited support - water level only. 
+- Limited support across all models
 
 ## Prerequisite
 

@@ -129,7 +129,7 @@ Additional binary sensors
 
 | Sensor                  | Description                                                                            | Example   |
 | ----------------------- | -------------------------------------------------------------------------------------- | --------- |
-| `online`                | If the device is connected to the cloud.                                               | Online    |
+| `water_tank_lifted      | Water tank lifted                                                                      | ok        |
 | `water_lacks`           | Low water for humdifiers                                                               | ok        |
 
 ## Extracting attribute data

@@ -142,11 +142,12 @@ Sensors and settings exposed by VeSync humidifiers.
 | ----------------------- | ---------------------------------------------------------------------------------- | --------- |
 | `mist_level`            | Mist level intensity (Range: 1-9, Step: 1)                                         | 1         |
 
+## Binary Sensors
+
 | Binary Sensor           | Description                                                                        | Example   |
 | ----------------------- | ---------------------------------------------------------------------------------- | --------- |
-| `water_lacks`           | Out of water                                                                       | Ok        |
-| `water_tank_lifted`     | Water tank is lifted                                                               | Ok        |
-
+| `water_lacks`           | Indicates whether the device needs a water refill                                  | false     |
+| `water_tank_lifted`     | Water tank is lifted                                                               | false     |
 ## Extracting attribute data
 
 In order to get the attributes readings from supported devices, such as voltage from outlets or fan attributes, you'll have to create a [template sensor](/integrations/template#state-based-template-sensors/).

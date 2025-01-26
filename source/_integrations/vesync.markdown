@@ -4,7 +4,6 @@ description: Instructions on how to set up VeSync switches, outlets, and fans wi
 ha_category:
   - Fan
   - Light
-  - Number
   - Switch
 ha_release: 0.66
 ha_iot_class: Cloud Polling
@@ -18,9 +17,7 @@ ha_domain: vesync
 ha_platforms:
   - diagnostics
   - fan
-  - humidifier
   - light
-  - number
   - sensor
   - switch
 ha_integration_type: integration
@@ -32,12 +29,10 @@ The devices must be added to the VeSync App before this {% term integration %} c
 
 The following platforms are supported:
 
-- **fan**
-- **humidifier**
 - **light**
-- **number**
-- **sensor**
 - **switch**
+- **fan**
+- **sensor**
 
 ## Supported devices
 
@@ -71,11 +66,6 @@ This {% term integration %} supports devices controllable by the VeSync App.  Th
 - Vital 100S Smart True HEPA Air Purifier (LAP-V102S-WUS) 
 - Vital 200S Smart True HEPA Air Purifier (LAP-V201S-WUS)
 - LEVOIT Smart Wifi Air Purifier (LV-PUR131S)
-
-### Humidifiers
-
-- Classic200S: Classic 200S Smart Ultrasonic Cool Mist Humidifier
-- Classic300S: Classic 300S Ultrasonic Smart Humidifier
 
 ## Prerequisite
 
@@ -127,18 +117,6 @@ VeSync air purifiers will expose the following details depending on the features
 | `screen_status`         | The current status of the screen. (LV-PUR131S)                                    | on              |
 | `night_light`           | The current status of the night light (Core200S/Core400s)                         | off             |
 | `child_lock`            | The current status of the child lock (Core200S/300s/400s)                         | off             |
-
-## Humidifier
-
-Sensors and settings exposed by VeSync humidifiers.
-
-| Sensor                  | Description                                                                        | Example   |
-| ----------------------- | ---------------------------------------------------------------------------------- | --------- |
-| `humidity`              | Current humidity (in %)                                                            | 35        |
-
-| Number                  | Description                                                                        | Example   |
-| ----------------------- | ---------------------------------------------------------------------------------- | --------- |
-| `mist_level`            | Mist level intensity (Range: 1-9, Step: 1)                                         | 1         |
 
 ## Extracting attribute data
 

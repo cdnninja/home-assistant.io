@@ -79,7 +79,7 @@ This {% term integration %} supports devices controllable by the VeSync App.  Th
 
 - Classic200S: Classic 200S Smart Ultrasonic Cool Mist Humidifier
 - Classic300S: Classic 300S Ultrasonic Smart Humidifier
-- Superior 6000S Smart Evaporative Humidifier
+- Superior6000S: Superior 6000S Smart Evaporative Humidifier
 
 ## Prerequisite
 

@@ -43,6 +43,7 @@ The following platforms are supported:
 - **number**
 - **sensor**
 - **switch**
+- **update**
 
 ## Supported devices
 

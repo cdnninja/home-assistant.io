@@ -25,12 +25,18 @@ The following platforms are supported:
 This {% term integration %} supports devices controllable by the VeSync App. The following devices are supported by this {% term integration %}. This list may not be exhaustive as devices have multiple model numbers within this.
 
 ### Bulbs
+
 - Etekcity WiFi Dimmable LED Bulb (ESL100)
 - Etekcity WiFi Dimmable and Tunable White LED Bulb (ESL100CW)
+- Etekcity Multicolor Bulb (ESL100MC)
+- Valceno WiFi Bulb (XYD0001)
+
+Multicolor bulbs can be turned on and off and dimmed. The Valceno bulb also supports color temperature. Changing the bulb color is not supported.
 
 ### Wall switches
 
 - Etekcity In Wall Smart Switch (EWSL01-USA)
+- Etekcity 3-Way Light Switch (ESWL03)
 - Etekcity Wifi Dimmer Switch (ESD16)
 - Etekcity Wifi Dimmer Switch (ESWD16)
 
@@ -39,31 +45,47 @@ This {% term integration %} supports devices controllable by the VeSync App. The
 - Etekcity 7 Amp US outlet - ESW01-USA (Round)
 - Etekcity 10 Amp US outlet - ESW10-USA (Round)
 - Etekcity 10 Amp EU outlet - ESW10-EU (Round)
+- Etekcity 10 Amp outlet - ESW01-EU, ESW03-USA, ESW03-EU
 - Etekcity 15 Amp US outlet - ESW15-USA (Rectangular)
 - Etekcity 2 Plug Outdoor Outlet - ESO15-TB
+- VeSync Smart Plug (WHOGPLUG)
+- VeSync Smart Plug (BSDOG01, BSDOG02, WYSMTOD16A, WM-PLUG, JXUK13APLUG, WYZYOGMINIPLUG, HWPLUG16A, HWPLUG16, FY-PLUG)
+- WYLDR Smart Plug (WYLDR16A1081)
 
-### Fans
+### Air purifiers
 
 - Core 200S: Smart True HEPA Air Purifier
 - Core 300S: Smart True HEPA Air Purifier
 - Core 400S: Smart True HEPA Air Purifier
 - Core 600S: Smart True HEPA Air Purifier
-- EverestAir: Smart Air Purifier
-- Vital 100S Smart True HEPA Air Purifier (LAP-V102S-WUS) 
-- Vital 200S Smart True HEPA Air Purifier (LAP-V201S-WUS)
+- EverestAir: Smart Air Purifier (LAP-EL551S)
+- Vital 100S Smart True HEPA Air Purifier (LAP-V102S)
+- Vital 200S Smart True HEPA Air Purifier (LAP-V201S)
+- Sprout Air Purifier (LAP-B851S)
 - LEVOIT Smart Wifi Air Purifier (LV-PUR131S)
-- LEVOIT Smart Tower Fan (LTF-F422S-WUS)
+- LEVOIT Smart Wifi Air Purifier (LV-RH131S)
+
+### Fans
+
+- LEVOIT Classic 42-Inch Smart Tower Fan (LTF-F422S)
+- LEVOIT Smart Pedestal Fan (LPF-R432S)
 
 ### Humidifiers
 
 - Classic200S: Classic 200S Smart Ultrasonic Cool Mist Humidifier
-- Classic300S: Classic 300S Ultrasonic Smart Humidifier
-- OasisMist 1000S Smart Ultrasonic Cool Mist Tower Humidifier (LUH-M101S-WUS)
-- Superior6000S: Superior 6000S Smart Evaporative Humidifier
+- Classic300S: Classic 300S Ultrasonic Smart Humidifier (LUH-A601S)
+- Dual 200S Smart Humidifier (LUH-D301S)
+- LV600S Smart Hybrid Ultrasonic Humidifier (LUH-A602S, LUH-A603S)
+- OasisMist 4.5L Smart Humidifier (LUH-O451S, LUH-O601S)
+- OasisMist 1000S Smart Ultrasonic Cool Mist Tower Humidifier (LUH-M101S)
+- Superior6000S: Superior 6000S Smart Evaporative Humidifier (LEH-S601S, LEH-S602S)
+- Sprout Smart Humidifier (LEH-B381S)
 
-### Air Fryers
+### Air fryers
 
-- Cosori 3.7 and 5.8 Quart Air Fryer
+- Cosori 3.7 and 5.8 Quart Air Fryer (CS137-AF, CS158-AF)
+- Cosori TurboBlaze 6 Quart Air Fryer (CAF-DC601S)
+- Cosori Dual Blaze 6.8 Quart Air Fryer (CAF-P583S)
 
 ## Prerequisite
 

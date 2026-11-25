@@ -174,6 +174,21 @@ The Plex media player platform will create media player entities for each connec
 
 By default, the Plex integration will create media player entities for all local, managed, and shared users on the Plex server. To customize which users or client types to monitor, adjust the "*Monitored users*", "*Ignore new managed/shared users*", and "*Ignore Plex Web clients*" options described under [Integration Options](#integration-options).
 
+### Removing a client device you no longer use
+
+Plex keeps client devices in Home Assistant after they disconnect, so you can delete clients you no longer use. You can only delete a client while it is not connected to your Plex server. To remove one:
+
+1. Close the Plex app on the client or turn the client off.
+2. Wait until the client's media player shows as **Unavailable**. Plex checks for clients every 10 minutes. To check right away, press the **Scan clients** button of your Plex server.
+3. Go to {% my integrations title="**Settings** > **Devices & services**" %} and select **Plex Media Server**.
+4. Select the client device, then select the three dots {% icon "mdi:dots-vertical" %} menu and select **Delete**.
+
+If the client connects to your Plex server again later, Home Assistant adds it back as a new device.
+
+Clients like Plex Web share a single **Plex Client Service** device. You can delete it when none of those clients are connected.
+
+You cannot delete the Plex server device itself. To remove a Plex server, [delete the integration entry](/common-tasks/general/#removing-an-integration-instance) instead.
+
 ### Playing Plex media in automations
 
 To play media hosted on a Plex server, use the [**Play specified media**](/actions/media_player.play_media/) action and select your Plex media player as the target. You can play music, playlists, TV episodes, movies, and search results from your Plex libraries.

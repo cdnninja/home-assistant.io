@@ -80,7 +80,7 @@ the configuration section below.
 
 ## Data updates
 
-The integration {% term polling polls %} the VeSync cloud every 60 seconds. The weekly, monthly, and yearly energy use of outlets is fetched every 6 hours.
+The integration {% term polling polls %} the VeSync cloud every 60 seconds. The weekly, monthly, and yearly energy use of outlets is fetched every 6 hours. Firmware updates are checked when the integration starts and then once every 24 hours.
 
 ## Removing the integration
 
